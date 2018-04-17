@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ListAndGrid.iml" filepath="$PROJECT_DIR$/ListAndGrid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/multil-type-support/multil-type-support.iml" filepath="$PROJECT_DIR$/multil-type-support/multil-type-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipe-dismiss-recyclerview/swipe-dismiss-recyclerview.iml" filepath="$PROJECT_DIR$/swipe-dismiss-recyclerview/swipe-dismiss-recyclerview.iml" />
     </modules>
   </component>
 </project>

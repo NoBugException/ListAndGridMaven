@@ -1,5 +1,6 @@
 package com.listandgrid.listandgrid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -8,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
 import com.listandgrid.multil_type_support.BaseBean;
 import com.listandgrid.multil_type_support.CommonViewHolder;
 import com.listandgrid.multil_type_support.MultiItemCommonAdapter;
@@ -30,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         List<BaseBean> mDatas = new ArrayList<>();
         BBaseBean bBaseBean1 = new BBaseBean();
         bBaseBean1.setFlag(1);
-        bBaseBean1.setName("111");
+        bBaseBean1.setName("滑动删除的recycleview");
         mDatas.add(bBaseBean1);
 
         BBaseBean bBaseBean2 = new BBaseBean();
@@ -80,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View view) {
                                 if(bbaseBean.getFlag() == 1){
-
+                                    startActivity(new Intent(MainActivity.this, SwipeDismissRecyclerActivity.class));
                                 }
                             }
                         });
