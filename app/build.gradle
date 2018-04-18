@@ -34,4 +34,6 @@ dependencies {
     compile project(':swipe-dismiss-recyclerview')
     compile project(':flabbyview')
     compile project(':stickyheaders')
+    compile project(':nicespinner')
+
 }

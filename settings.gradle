@@ -1,1 +1,1 @@
-include ':app', ':multil-type-support', ':swipe-dismiss-recyclerview', ':flabbyview', ':stickyheaders'
+include ':app', ':multil-type-support', ':swipe-dismiss-recyclerview', ':flabbyview', ':stickyheaders', ':nicespinner'
