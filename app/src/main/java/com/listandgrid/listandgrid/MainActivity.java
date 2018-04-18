@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.listandgrid.listandgrid.flabbyview.FlabbyActivity;
 import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
 import com.listandgrid.multil_type_support.BaseBean;
 import com.listandgrid.multil_type_support.CommonViewHolder;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         BBaseBean bBaseBean2 = new BBaseBean();
         bBaseBean2.setFlag(2);
-        bBaseBean2.setName("222");
+        bBaseBean2.setName("FlabbyLayout");
         mDatas.add(bBaseBean2);
 
         BBaseBean bBaseBean3 = new BBaseBean();
@@ -83,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(View view) {
                                 if(bbaseBean.getFlag() == 1){
                                     startActivity(new Intent(MainActivity.this, SwipeDismissRecyclerActivity.class));
+                                }else if(bbaseBean.getFlag() == 2){
+                                    startActivity(new Intent(MainActivity.this, FlabbyActivity.class));
                                 }
                             }
                         });
