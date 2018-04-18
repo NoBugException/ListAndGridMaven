@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".swipedismissrecyclerview.SwipeDismissRecyclerActivity" />
         <activity android:name=".flabbyview.FlabbyActivity" />
+        <activity android:name=".stickyheader.StickyHeaderActivity" />
     </application>
 
 </manifest>

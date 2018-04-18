@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.listandgrid.listandgrid.flabbyview.FlabbyActivity;
+import com.listandgrid.listandgrid.stickyheader.StickyHeaderActivity;
 import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
 import com.listandgrid.multil_type_support.BaseBean;
 import com.listandgrid.multil_type_support.CommonViewHolder;
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         BBaseBean bBaseBean3 = new BBaseBean();
         bBaseBean3.setFlag(3);
-        bBaseBean3.setName("333");
+        bBaseBean3.setName("recycleview增加头部");
         mDatas.add(bBaseBean3);
 
         LinearLayoutManager layoutmanager = new LinearLayoutManager(this);
@@ -86,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
                                     startActivity(new Intent(MainActivity.this, SwipeDismissRecyclerActivity.class));
                                 }else if(bbaseBean.getFlag() == 2){
                                     startActivity(new Intent(MainActivity.this, FlabbyActivity.class));
+                                }else if(bbaseBean.getFlag() == 3){
+                                    startActivity(new Intent(MainActivity.this, StickyHeaderActivity.class));
                                 }
                             }
                         });

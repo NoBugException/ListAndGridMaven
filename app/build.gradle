@@ -33,4 +33,5 @@ dependencies {
     compile project(':multil-type-support')
     compile project(':swipe-dismiss-recyclerview')
     compile project(':flabbyview')
+    compile project(':stickyheaders')
 }
