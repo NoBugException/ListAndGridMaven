@@ -1,4 +1,4 @@
-package com.list.parallax;
+package com.parallax.list;
 
 import org.junit.Test;
 

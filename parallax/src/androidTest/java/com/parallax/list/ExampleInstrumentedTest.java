@@ -1,4 +1,4 @@
-package com.list.parallax;
+package com.parallax.list;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.list.parallax.test", appContext.getPackageName());
+        assertEquals("com.parallax.list.test", appContext.getPackageName());
     }
 }

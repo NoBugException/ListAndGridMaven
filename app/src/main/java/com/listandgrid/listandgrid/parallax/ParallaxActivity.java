@@ -7,8 +7,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
-import com.list.parallax.ParallaxScollListView;
 import com.listandgrid.listandgrid.R;
+import com.parallax.list.ParallaxScollListView;
+
 
 public class ParallaxActivity extends Activity {
 
