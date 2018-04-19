@@ -1,28 +1,23 @@
 package com.listandgrid.listandgrid.stickyheader;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.stickyheaders.DrawOrder;
-import com.example.stickyheaders.OnHeaderClickListener;
-import com.example.stickyheaders.StickyHeadersBuilder;
-import com.example.stickyheaders.StickyHeadersItemDecoration;
 import com.listandgrid.listandgrid.R;
 import com.listandgrid.listandgrid.stickyheader.adapters.BigramHeaderAdapter;
 import com.listandgrid.listandgrid.stickyheader.adapters.InitialHeaderAdapter;
 import com.listandgrid.listandgrid.stickyheader.adapters.PersonAdapter;
 import com.listandgrid.listandgrid.stickyheader.data.PersonDataProvider;
+import com.stickyheaders.recycleview.DrawOrder;
+import com.stickyheaders.recycleview.OnHeaderClickListener;
+import com.stickyheaders.recycleview.StickyHeadersBuilder;
+import com.stickyheaders.recycleview.StickyHeadersItemDecoration;
 
 /**
  * Created by beixinyuan_android on 2018/4/18.

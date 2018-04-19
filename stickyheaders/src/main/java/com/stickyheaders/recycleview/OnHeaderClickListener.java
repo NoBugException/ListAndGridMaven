@@ -1,4 +1,4 @@
-package com.example.stickyheaders;
+package com.stickyheaders.recycleview;
 
 import android.view.View;
 

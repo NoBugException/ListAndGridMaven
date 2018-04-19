@@ -1,4 +1,4 @@
-package com.example.stickyheaders;
+package com.stickyheaders.recycleview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.stickyheaders.test", appContext.getPackageName());
+        assertEquals("com.stickyheaders.recycleview.test", appContext.getPackageName());
     }
 }

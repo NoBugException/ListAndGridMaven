@@ -1,4 +1,4 @@
-package com.example.stickyheaders;
+package com.stickyheaders.recycleview;
 
 /**
  * Created by aurel on 10/11/14.

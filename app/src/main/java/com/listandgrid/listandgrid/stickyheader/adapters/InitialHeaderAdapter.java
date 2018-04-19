@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.stickyheaders.StickyHeadersAdapter;
 import com.listandgrid.listandgrid.R;
+import com.stickyheaders.recycleview.StickyHeadersAdapter;
 
 import java.util.List;
 

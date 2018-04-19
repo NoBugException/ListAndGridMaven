@@ -1,4 +1,4 @@
-package com.example.stickyheaders;
+package com.stickyheaders.recycleview;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
@@ -9,7 +9,7 @@ public interface StickyHeadersAdapter<HeaderViewHolder extends RecyclerView.View
      * Create a header {@link android.support.v7.widget.RecyclerView.ViewHolder ViewHolder} witch encapsulate the header view
      * You can either create a View manually or inflate it from an XML layout file.
      *
-     * @param parent the parent {@link android.view.ViewGroup ViewGroup}
+     * @param parent the parent {@link ViewGroup ViewGroup}
      * @return the newly created {@link android.support.v7.widget.RecyclerView.ViewHolder ViewHolder}
      */
     HeaderViewHolder onCreateViewHolder(ViewGroup parent);
