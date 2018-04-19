@@ -3,9 +3,8 @@ package com.listandgrid.listandgrid.flabbyview;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.ArrayAdapter;
 
-import com.example.flabbyview.FlabbyListView;
+import com.flabbyview.listview.FlabbyListView;
 import com.listandgrid.listandgrid.R;
 
 import java.util.ArrayList;

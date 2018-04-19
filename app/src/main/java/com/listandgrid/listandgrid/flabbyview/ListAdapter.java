@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.flabbyview.FlabbyLayout;
+import com.flabbyview.listview.FlabbyLayout;
 import com.listandgrid.listandgrid.R;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.flabbyview;
+package com.flabbyview.listview;
 
 import org.junit.Test;
 

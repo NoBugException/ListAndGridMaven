@@ -30,7 +30,7 @@ uploadArchives {
         pom.project {
             groupId "com.flabby"
             artifactId "listview"
-            version "1.0"
+            version "1.1"
         }
     }
 }
