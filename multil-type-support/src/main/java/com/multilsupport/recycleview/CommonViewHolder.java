@@ -1,4 +1,4 @@
-package com.listandgrid.multil_type_support;
+package com.multilsupport.recycleview;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

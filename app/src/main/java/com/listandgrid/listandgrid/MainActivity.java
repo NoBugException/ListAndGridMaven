@@ -14,10 +14,10 @@ import com.listandgrid.listandgrid.nice_spinner.NiceSpinnerActivity;
 import com.listandgrid.listandgrid.parallax.ParallaxActivity;
 import com.listandgrid.listandgrid.stickyheader.StickyHeaderActivity;
 import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
-import com.listandgrid.multil_type_support.BaseBean;
-import com.listandgrid.multil_type_support.CommonViewHolder;
-import com.listandgrid.multil_type_support.MultiItemCommonAdapter;
-import com.listandgrid.multil_type_support.MultiItemTypeSupport;
+import com.multilsupport.recycleview.BaseBean;
+import com.multilsupport.recycleview.CommonViewHolder;
+import com.multilsupport.recycleview.MultiItemCommonAdapter;
+import com.multilsupport.recycleview.MultiItemTypeSupport;
 
 import java.util.ArrayList;
 import java.util.List;

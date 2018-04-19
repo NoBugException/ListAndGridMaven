@@ -1,4 +1,4 @@
-package com.listandgrid.multil_type_support;
+package com.multilsupport.recycleview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.listandgrid.multil_type_support.test", appContext.getPackageName());
+        assertEquals("com.multilsupport.recycleview.test", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.listandgrid.multil_type_support;
+package com.multilsupport.recycleview;
 
 /**
  * Created by Q on 2018/3/1.

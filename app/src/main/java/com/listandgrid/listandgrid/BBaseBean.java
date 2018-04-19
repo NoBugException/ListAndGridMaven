@@ -1,6 +1,6 @@
 package com.listandgrid.listandgrid;
 
-import com.listandgrid.multil_type_support.BaseBean;
+import com.multilsupport.recycleview.BaseBean;
 
 /**
  * Created by beixinyuan_android on 2018/3/29.

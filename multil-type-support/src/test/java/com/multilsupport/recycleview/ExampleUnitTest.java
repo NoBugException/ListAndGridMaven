@@ -1,4 +1,4 @@
-package com.listandgrid.multil_type_support;
+package com.multilsupport.recycleview;
 
 import org.junit.Test;
 
