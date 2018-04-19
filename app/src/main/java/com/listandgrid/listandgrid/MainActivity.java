@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.listandgrid.listandgrid.flabbyview.FlabbyActivity;
 import com.listandgrid.listandgrid.nice_spinner.NiceSpinnerActivity;
+import com.listandgrid.listandgrid.parallax.ParallaxActivity;
 import com.listandgrid.listandgrid.stickyheader.StickyHeaderActivity;
 import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
 import com.listandgrid.multil_type_support.BaseBean;
@@ -52,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
         bBaseBean4.setFlag(4);
         bBaseBean4.setName("NiceSpinner");
         mDatas.add(bBaseBean4);
+
+        BBaseBean bBaseBean5 = new BBaseBean();
+        bBaseBean5.setFlag(5);
+        bBaseBean5.setName("ParallaxScollListView");
+        mDatas.add(bBaseBean5);
 
         LinearLayoutManager layoutmanager = new LinearLayoutManager(this);
         //设置RecyclerView 布局
@@ -97,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
                                     startActivity(new Intent(MainActivity.this, StickyHeaderActivity.class));
                                 }else if(bbaseBean.getFlag() == 4){
                                     startActivity(new Intent(MainActivity.this, NiceSpinnerActivity.class));
+                                }else if(bbaseBean.getFlag() == 5){
+                                    startActivity(new Intent(MainActivity.this, ParallaxActivity.class));
                                 }
                             }
                         });

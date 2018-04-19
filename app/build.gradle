@@ -35,5 +35,6 @@ dependencies {
     compile project(':flabbyview')
     compile project(':stickyheaders')
     compile project(':nicespinner')
+    compile project(':parallax')
 
 }
