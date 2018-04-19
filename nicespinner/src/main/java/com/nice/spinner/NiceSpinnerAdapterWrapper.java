@@ -1,4 +1,4 @@
-package com.example.nicespinner;
+package com.nice.spinner;
 
 import android.content.Context;
 import android.widget.ListAdapter;

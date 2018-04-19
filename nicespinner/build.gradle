@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
+
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
@@ -29,7 +30,7 @@ uploadArchives {
         pom.project {
             groupId "com.nice"
             artifactId "spinner"
-            version "1.0"
+            version "1.1"
         }
     }
 }
