@@ -15,7 +15,7 @@
  * Modified by falling on 15-5-1.
  */
 
-package com.example.swipe_dismiss_recyclerview;
+package com.swipedismiss.recyclerview;
 
 
 import android.animation.Animator;

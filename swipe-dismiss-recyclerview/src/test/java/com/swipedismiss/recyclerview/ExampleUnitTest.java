@@ -1,4 +1,4 @@
-package com.example.swipe_dismiss_recyclerview;
+package com.swipedismiss.recyclerview;
 
 import org.junit.Test;
 

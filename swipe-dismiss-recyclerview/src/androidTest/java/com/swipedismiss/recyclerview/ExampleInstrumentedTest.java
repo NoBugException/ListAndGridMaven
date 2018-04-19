@@ -1,4 +1,4 @@
-package com.example.swipe_dismiss_recyclerview;
+package com.swipedismiss.recyclerview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.swipe_dismiss_recyclerview.test", appContext.getPackageName());
+        assertEquals("com.swipedismiss.recyclerview.test", appContext.getPackageName());
     }
 }

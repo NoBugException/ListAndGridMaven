@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.swipe_dismiss_recyclerview.SwipeDismissRecyclerViewTouchListener;
 import com.listandgrid.listandgrid.R;
+import com.swipedismiss.recyclerview.SwipeDismissRecyclerViewTouchListener;
 
 import java.util.LinkedList;
 import java.util.List;
