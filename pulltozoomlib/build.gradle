@@ -27,7 +27,7 @@ uploadArchives {
         pom.project {
             groupId "com.pulltozoom"
             artifactId "listviewandscrollview"
-            version "1.0"
+            version "1.1"
         }
     }
 }
