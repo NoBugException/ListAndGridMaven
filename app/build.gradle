@@ -37,4 +37,5 @@ dependencies {
     compile project(':nicespinner')
     compile project(':parallax')
     compile project(':pulltozoomlib')
+    compile project(':swipemenu')
 }

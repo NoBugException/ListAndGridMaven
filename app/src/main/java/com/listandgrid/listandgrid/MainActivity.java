@@ -15,6 +15,7 @@ import com.listandgrid.listandgrid.parallax.ParallaxActivity;
 import com.listandgrid.listandgrid.pulltozoom.PullToZoomActivity;
 import com.listandgrid.listandgrid.stickyheader.StickyHeaderActivity;
 import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
+import com.listandgrid.listandgrid.swipemenu.SwipemenuActivity;
 import com.multilsupport.recycleview.BaseBean;
 import com.multilsupport.recycleview.CommonViewHolder;
 import com.multilsupport.recycleview.MultiItemCommonAdapter;
@@ -65,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
         bBaseBean6.setName("PullToZoomView");
         mDatas.add(bBaseBean6);
 
+        BBaseBean bBaseBean7 = new BBaseBean();
+        bBaseBean7.setFlag(7);
+        bBaseBean7.setName("lisyview的item，左右滑动的menu项");
+        mDatas.add(bBaseBean7);
+
         LinearLayoutManager layoutmanager = new LinearLayoutManager(this);
         //设置RecyclerView 布局
         mRecyclerView.setLayoutManager(layoutmanager);
@@ -113,6 +119,8 @@ public class MainActivity extends AppCompatActivity {
                                     startActivity(new Intent(MainActivity.this, ParallaxActivity.class));
                                 }else if(bbaseBean.getFlag() == 6){
                                     startActivity(new Intent(MainActivity.this, PullToZoomActivity.class));
+                                }else if(bbaseBean.getFlag() == 7){
+                                    startActivity(new Intent(MainActivity.this, SwipemenuActivity.class));
                                 }
                             }
                         });

@@ -25,6 +25,9 @@
         <activity android:name=".pulltozoom.PullToZoomListActivity" />
         <activity android:name=".pulltozoom.PullToZoomScrollActivity" />
         <activity android:name=".pulltozoom.recyclerview.PullToZoomRecyclerActivity" />
+        <activity android:name=".swipemenu.SwipemenuActivity" />
+        <activity android:name=".swipemenu.DifferentMenuActivity" />
+        <activity android:name=".swipemenu.SimpleActivity" />
     </application>
 
 </manifest>
