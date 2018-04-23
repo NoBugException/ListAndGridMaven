@@ -21,6 +21,10 @@
         <activity android:name=".stickyheader.StickyHeaderActivity" />
         <activity android:name=".nice_spinner.NiceSpinnerActivity" />
         <activity android:name=".parallax.ParallaxActivity" />
+        <activity android:name=".pulltozoom.PullToZoomActivity" />
+        <activity android:name=".pulltozoom.PullToZoomListActivity" />
+        <activity android:name=".pulltozoom.PullToZoomScrollActivity" />
+        <activity android:name=".pulltozoom.recyclerview.PullToZoomRecyclerActivity" />
     </application>
 
 </manifest>

@@ -36,5 +36,5 @@ dependencies {
     compile project(':stickyheaders')
     compile project(':nicespinner')
     compile project(':parallax')
-
+    compile project(':pulltozoomlib')
 }

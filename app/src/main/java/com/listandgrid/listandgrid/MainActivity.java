@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.listandgrid.listandgrid.flabbyview.FlabbyActivity;
 import com.listandgrid.listandgrid.nice_spinner.NiceSpinnerActivity;
 import com.listandgrid.listandgrid.parallax.ParallaxActivity;
+import com.listandgrid.listandgrid.pulltozoom.PullToZoomActivity;
 import com.listandgrid.listandgrid.stickyheader.StickyHeaderActivity;
 import com.listandgrid.listandgrid.swipedismissrecyclerview.SwipeDismissRecyclerActivity;
 import com.multilsupport.recycleview.BaseBean;
@@ -59,6 +60,11 @@ public class MainActivity extends AppCompatActivity {
         bBaseBean5.setName("ParallaxScollListView");
         mDatas.add(bBaseBean5);
 
+        BBaseBean bBaseBean6 = new BBaseBean();
+        bBaseBean6.setFlag(6);
+        bBaseBean6.setName("PullToZoomView");
+        mDatas.add(bBaseBean6);
+
         LinearLayoutManager layoutmanager = new LinearLayoutManager(this);
         //设置RecyclerView 布局
         mRecyclerView.setLayoutManager(layoutmanager);
@@ -105,6 +111,8 @@ public class MainActivity extends AppCompatActivity {
                                     startActivity(new Intent(MainActivity.this, NiceSpinnerActivity.class));
                                 }else if(bbaseBean.getFlag() == 5){
                                     startActivity(new Intent(MainActivity.this, ParallaxActivity.class));
+                                }else if(bbaseBean.getFlag() == 6){
+                                    startActivity(new Intent(MainActivity.this, PullToZoomActivity.class));
                                 }
                             }
                         });

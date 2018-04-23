@@ -1,1 +1,1 @@
-include ':app', ':flabbyview', ':multil-type-support', ':nicespinner', ':parallax', ':stickyheaders', ':swipe-dismiss-recyclerview'
+include ':app', ':flabbyview', ':multil-type-support', ':nicespinner', ':parallax', ':stickyheaders', ':swipe-dismiss-recyclerview',':pulltozoomlib'
