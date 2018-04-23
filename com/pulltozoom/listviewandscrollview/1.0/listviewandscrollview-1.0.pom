@@ -13,5 +13,11 @@
       <version>26.0.0-alpha1</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>26.0.0-alpha1</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>

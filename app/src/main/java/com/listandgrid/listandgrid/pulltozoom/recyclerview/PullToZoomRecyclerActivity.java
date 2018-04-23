@@ -13,8 +13,9 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.TextView;
 
+import com.ecloud.pulltozoomview.PullToZoomRecyclerViewEx;
+import com.ecloud.pulltozoomview.RecyclerViewHeaderAdapter;
 import com.listandgrid.listandgrid.R;
-import com.listandgrid.listandgrid.pulltozoom.PullToZoomRecyclerViewEx;
 
 /**
  * Created by manishdeora on 13/05/15.

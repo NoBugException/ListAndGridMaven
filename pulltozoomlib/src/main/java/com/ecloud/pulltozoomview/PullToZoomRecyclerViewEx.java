@@ -1,4 +1,4 @@
-package com.listandgrid.listandgrid.pulltozoom;
+package com.ecloud.pulltozoomview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,9 +13,6 @@ import android.view.animation.Interpolator;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
-
-import com.ecloud.pulltozoomview.PullToZoomBase;
-import com.listandgrid.listandgrid.pulltozoom.recyclerview.RecyclerViewHeaderAdapter;
 
 /**
  * Author:    ZhuWenWu

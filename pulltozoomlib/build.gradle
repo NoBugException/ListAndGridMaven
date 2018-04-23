@@ -35,4 +35,6 @@ uploadArchives {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    //noinspection GradleCompatible
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
 }

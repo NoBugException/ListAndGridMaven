@@ -3,7 +3,7 @@
  * Copyright (c) 2014. Rocko Labs Ltd. All Rights Reserved.
  */
 
-package com.listandgrid.listandgrid.pulltozoom.recyclerview;
+package com.ecloud.pulltozoomview;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
